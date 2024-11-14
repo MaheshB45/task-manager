@@ -38,8 +38,13 @@ const App = () => {
     });
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-6">
       <h1 className="text-2xl font-bold mb-4 text-center">Task Manager</h1>
+
+      {/* Add Task Feature */}
+      <TaskInput onAddTask={addTask} />
+
+      {/* Search Feature */}
       <input
         type="text"
         placeholder="Search tasks..."
@@ -47,7 +52,8 @@ const App = () => {
         onChange={(e) => setSearchTerm(e.target.value)}
         className="p-2 mb-4 border rounded w-full"
       />
-      <TaskInput onAddTask={addTask} />
+
+      {/* Sort Feature */}
       <select
         value={sortOption}
         onChange={(e) => setSortOption(e.target.value)}
@@ -58,6 +64,7 @@ const App = () => {
         <option value="completed">Sort by Completed</option>
       </select>
 
+      {/* All Task */}
       <TaskList
         tasks={filteredTasks}
         onDeleteTask={deleteTask}
