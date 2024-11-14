@@ -1,5 +1,7 @@
 # Task Manager Application
 
+## Live Site -
+
 ## Overview
 
 This Task Manager is a simple, feature-rich application built with React and Tailwind CSS. It helps users manage their tasks efficiently with basic and advanced functionalities such as task input, deletion, sorting, searching, and setting task priority. It also includes UI animations to enhance user experience.
@@ -45,6 +47,7 @@ This Task Manager is a simple, feature-rich application built with React and Tai
 
 ## Screenshots
 
+![task-manager](https://github.com/user-attachments/assets/d73223de-cb5c-4374-bb31-88982209dd50)
 
 ---
 
