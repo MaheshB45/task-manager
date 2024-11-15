@@ -53,15 +53,9 @@ This Task Manager is a simple, feature-rich application built with React and Tai
 
 ## Technologies Used
 
-- **React for the frontend.**
+- **React for the Frontend.**
 - **Tailwind CSS for styling.**
 - **React Transition Group for animations.**
 - **Local Storage for persisting task data.**
 
-
-
-
-
-
-
-
+---
